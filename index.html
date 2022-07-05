@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juego de Memorandum</title>
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Juego de Memoria - Memorama</h1>
+        <div class="item">
+            <p>Numero de intentos: <strong id="suma">0</strong></p>
+        </div>
+        <div class="item">
+            <p>Numero de aciertos: <strong id="aciertos">0</strong></p>
+        </div>
+        <div class="item2">
+            <input type="button" value="Iniciar" class="btn-start" onclick="Mostrar()">
+            <input type="button" value="Terminar" class="btn-end" onclick="alerta()" disabled="" >
+        </div>
+    </div>
+
+    <section id="memorama">
+
+    </section>
+
+
+    <!-- <footer>
+        <p>ⓒ 2022 | Diseñado por Alexis Molinero</p>
+    </footer> -->
+
+
+    <script src="index.js"></script>
+    <script src="tilt.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
